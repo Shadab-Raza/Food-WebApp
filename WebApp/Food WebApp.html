@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script  type="text/javascript" src="https://codesandbox.io/public/sse-hooks/sse-hooks.f648b14c15c640a14a557113a991cb8d.js"></script>
+    <script  type="text/javascript" src="https://codesandbox.io/static/js/banner.be879265d.js"></script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My Online Restaurant</title>
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmqdVQtcqWCN4AVjVP6zTLehPgm_n4K5aXyQ&usqp=CAU">
+    <style>
+      html {
+        /* scroll-behavior: smooth; */
+      }
+      h1 {
+        color: rgb(100, 93, 93);
+        background-color: rgba(250, 219, 127, 0.925);
+        text-align: center;
+        border-radius:30px;
+        width:350px;
+        padding: 6px;
+        margin: 10px;
+      }
+      body{
+        margin: 0%;
+        background-color: rgba(210, 234, 136, 0.752);
+      }
+     .head-bar {
+        background-color: rgb(134, 97, 126);
+        cursor: pointer;
+        text-align:end;
+      }
+      .btn {
+        display:inline-block;
+        text-align: center;
+        padding: 15px;
+        color: rgb(66, 19, 19);
+        font-weight: bold;
+        }
+        .btn:hover{
+          background-color: rgb(139, 136, 136);
+        }
+      .link {
+        text-decoration: none;
+        color: rgb(61, 107, 74);
+        font-weight:bold; 
+      }
+      .link:hover{
+          background-color: rgb(214, 226, 236);
+      }
+      .image {
+        width:250px;
+        height: 250px;
+        border-radius:30px; 
+        
+      }
+      .main-container {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        justify-content:center;
+        flex-wrap: wrap;
+      }
+    p {
+      text-align: center;
+      font-weight: bold;
+      }
+     style{
+       display:none;
+     }
+    
+ </style>
+     <header class="head-bar">
+        <nav class="nav-btn"></nav>
+        <div class="btn">Index</div>
+        <div class="btn">Food</div>
+        <div class="btn">About</div>
+      </nav>
+      </header>
+  </head>
+  <body>
+   
+      <h1><u>Menu Available Here</u> ...</h1>
+      <ul>
+        <li>
+          <a class="link" href="#Chicken Tikka Masala">Chicken Tikka Masala</a>
+        </li><br>
+        <li>
+            <a class="link" href="#Dark Chocolate">Dark Chocolate</a>
+          </li><br>
+          <li>
+              <a class="link" href="#Palak Paneer">Palak Paneer</a>
+            </li><br>
+            <li>
+                <a class="link" href="#Kheer">Kheer</a>
+              </li><br>
+              <li>
+                  <a class="link" href="#Cocktails">Cocktails</a>
+                </li><br>
+      </ul>
+      <section class="main-container">
+        <div>
+        <img class="image" src="https://www.listchallenges.com/f/items/9406a0ed-5ef6-47dd-8e94-54ac6a4c0858.jpg" id="Chicken Tikka Masala">
+        <p><u>Chicken Tikka Masala</u></p>
+        </div>
+        <div>
+          <img class="image" src="https://www.listchallenges.com/f/items/470bef06-bd7b-4357-9a38-d7acd5fe43f6.jpg" id="Dark Chocolate">
+          <p><u>Dark Chocolate</u></p>
+        </div>
+        <div>
+          <img class="image" src="https://www.listchallenges.com/f/items/05632ec7-77c4-4534-b0a2-bbcd24b3b267.jpg" id="Palak Paneer">
+          <p><u>Palak Paneer</u></p>
+        </div>
+        <div>
+          <img class="image" src="https://www.listchallenges.com/f/items/39db5436-edda-45b6-ba74-71ca3c26858f.jpg" id="Kheer">
+          <p><u>Kheer</u></p>
+        </div>
+        <div>
+          <img class="image" src="https://possector.com/wordpress/wp-content/uploads/2014/07/top-summer-cocktails-2014-cocktails0.jpg" id="Cocktails">
+          <p><u>Cocktails</u></p>
+        </div>
+      </section>
+    <script crossorigin type="text/javascript" src="https://codesandbox.io/static/js/watermark-button.be960f43b.js"></script>
+  </body>
+</html>
